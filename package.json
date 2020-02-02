@@ -1,0 +1,20 @@
+{
+  "name": "requestless",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "requestless.com",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.16.3",
+    "npm": ">=6.9.0"
+  },
+  "devDependencies": {
+    "serverless-google-cloudfunctions": "*",
+    "serverless-secrets-plugin": "^0.1.0"
+  },
+  "dependencies": {}
+}
