@@ -26,12 +26,16 @@ package:
     - .gitignore
     - .git/**
     - credentials.json
+    - readme.md
+    - example.secrets.yml
+    - '*.png'
 
 functions:
   screenshot:
     handler: screenshot
     events:
       - http: path
+    memorySize: 1024
   # NOTE: the following uses an "event" event (pubSub event in this case).
   # Please create the corresponding resources in the Google Cloud
   # before deploying this service through Serverless

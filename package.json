@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:screenshot": "functions-framework --target=screenshot"
   },
   "author": "requestless.com",
   "license": "MIT",
@@ -16,5 +17,10 @@
     "serverless-google-cloudfunctions": "*",
     "serverless-secrets-plugin": "^0.1.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@google-cloud/functions-framework": "^1.4.0",
+    "install": "^0.13.0",
+    "npm": "^6.13.7",
+    "puppeteer": "^2.1.0"
+  }
 }
